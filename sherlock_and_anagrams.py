@@ -11,6 +11,7 @@ __author__ = 'Devansh Jani <devanshjani@gmail.com>'
 def sherlock_and_anagrams(anagram_string) -> int:
     """
     Calculate anagram pairs by given string.
+
     :param anagram_string: String for anagram validation
     :return: Number of anagram pairs.
     """

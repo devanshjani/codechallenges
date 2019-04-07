@@ -13,6 +13,7 @@ from typing import List
 def mark_and_toys(prices: List, budget: int):
     """
     Compute max toys mark can buy.
+
     :param prices: tpy prices.
     :param budget: max budget.
     :return: No of toys that can be bought.

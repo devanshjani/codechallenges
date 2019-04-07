@@ -33,6 +33,7 @@ def validate_ransom_note(
 ) -> str:
     """
     Validate if ransom note can be constructed from the magazine string.
+
     :param magazine_words: List of strings for magazine words.
     :param ransom_note_words: List of ransom notes string.
     :param magazine_words_entered: Total words in magazine entered.
