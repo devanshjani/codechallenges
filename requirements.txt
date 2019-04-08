@@ -3,3 +3,6 @@ flake8
 flake8-docstrings
 pep8-naming
 flake8-bugbear
+numpy
+sklearn
+pandas
