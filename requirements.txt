@@ -6,3 +6,4 @@ flake8-bugbear
 numpy
 sklearn
 pandas
+nltk

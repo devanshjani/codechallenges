@@ -26,7 +26,7 @@ def predict_dota_games(test_data: np.array):
 
     :param test_data: Games to predict.
     """
-    classifier = DecisionTreeClassifier()
+    classifier = DecisionTreeClassifier(max_depth=3)
     encoder = OneHotEncoder()
     traing_data = read_training_data()
     encoded_training_data = encoder.fit_transform(traing_data[:, :-1])
